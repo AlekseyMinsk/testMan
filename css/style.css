@@ -11,8 +11,46 @@
   height: 50px;
   width: 50px;
   background-color: #A9FFA8;
+  box-sizing: border-box;
 }
+.background {
+  background-image: url(../img/man1.png);
+  background-repeat: no-repeat;
+
+}
+.background-up {
+  background: url(../img/man1.png) 50% -281px no-repeat #A9FFA8;
+}
+.background-down {
+  background: url(../img/man1.png) 50% 5px no-repeat #A9FFA8;
+}
+.background-left {
+  background: url(../img/man1.png) 50% -88px no-repeat #A9FFA8;
+}
+.background-right {
+  background: url(../img/man1.png) 50% -184px no-repeat #A9FFA8;
+}
+
+
+
+
+
 .img {
      max-width: 100%;
      max-height: 100%;    
  }
+
+
+
+
+
+.border-left {
+  border-left: 2px solid #000;
+}
+.border-up {
+  border-top: 2px solid #000;
+} 
+.border-both {
+  border-left: 2px solid #000;
+  border-top: 2px solid #000;
+} 
